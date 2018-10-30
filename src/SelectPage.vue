@@ -299,11 +299,13 @@ export default {
     },
     doSelectAll() {
       this.selected = this.search ? [...this.list] : [...this.data];
+      this.changeValue();
     },
     doClear() {
       this.search = '';
       this.pageNumber = 1;
       this.selected = [];
+      this.changeValue();
       this.handleList();
     },
     doComplete() {
