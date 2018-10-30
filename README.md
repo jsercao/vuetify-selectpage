@@ -17,7 +17,7 @@ npm install vuetify-selectpage
 ```vue
 <script>
 import VSelectPage from 'vuetify-selectpage';
-import 'vuetify-selectpage/dist/vuetify-select-page.css';
+import 'vuetify-selectpage/dist/vuetify-selectpage.css';
 
 Vue.use(VSelectPage);
 </script>
@@ -28,7 +28,7 @@ Vue.use(VSelectPage);
 ```
 <script>
 import SelectPage from 'vuetify-selectpage';
-import 'vuetify-selectpage/dist/vuetify-select-page.css';
+import 'vuetify-selectpage/dist/vuetify-selectpage.css';
 
 export default {
   components: { SelectPage.name: SelectPage },
@@ -53,6 +53,7 @@ export default {
 | page          | 是否分页           | true                  | Boolean |
 | pagelimit     | 每页条数           | 12                    | Number  |
 | data          | 列表数据           |                       | Array   |
+| custClass     | 自定义样式         |                       | String  |
 
 ## 构建
 
