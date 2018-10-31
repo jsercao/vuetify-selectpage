@@ -542,6 +542,7 @@ export default {
   },
   methods: {
     onChange(val) {
+      console.log(val);
       this.hasSelected = val;
     },
     doQuery(val) {
