@@ -1,6 +1,6 @@
 {
   "name": "vuetify-selectpage",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A vuetify selectpage",
   "main": "dist/vuetify-selectpage.cjs.js",
   "module": "dist/vuetify-selectpage.es.js",

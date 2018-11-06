@@ -233,7 +233,7 @@ export default {
         const item1 = this.data.filter(
           item => item.id === this.selected[0].id
         )[0];
-        return item1.name;
+        return item1 ? item1.name : '';
       }
       return this.i18n.items_selected.replace(
         'selected_count',
